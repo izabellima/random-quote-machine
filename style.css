@@ -14,15 +14,17 @@ body {
   text-align: center;
 }
 .quote-card {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.82);
   color: #444345;
-  min-height: 50vh;
+  min-height: 20vh;
   width: 90vh;
   margin-top: 25vh;
 }
 
 .quote-card h1 {
-  font-size: 26px;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 29px;
   margin: 40px 30px 0 30px;
   font-weight: 400;
 }
@@ -30,9 +32,30 @@ body {
 .quote-card h5 {
   font-size: 15px;
   text-transform: uppercase;
-  margin: 30px 30px 20px 30px;
+  margin: 20px 30px 40px 30px;
 }
 
 #getQuote {
   margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+button {
+  background-color: rgba(255,255,255,0);
+  border: #444345 solid 1px;
+  color: #444345;
+  padding: 6px 10px;
+  letter-spacing: 0.3px;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #444345;
+  border: #444345 solid 1px;
+  color: white;
+  transition: all 0.20s ease-in;
+}
+
+button:focus {
+  outline: none;
 }
