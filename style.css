@@ -2,9 +2,10 @@ body {
   background-color: black;
   color: white;
   font-family: 'Anonymous Pro', monospace;
-  background-image: url("https://unsplash.it/900/700/?random");
+  background-image: url("https://unsplash.it/1000/700/?random");
   background-size: cover;
-  background-position: center;
+
+  background-repeat: none;
 }
 
 .wrapper {
@@ -54,8 +55,18 @@ button:hover {
   border: #444345 solid 1px;
   color: white;
   transition: all 0.20s ease-in;
+
 }
 
 button:focus {
   outline: none;
+}
+
+button a {
+  color: #444345;
+}
+
+button:hover a {
+  color: white;
+  text-decoration: none;
 }
